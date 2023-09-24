@@ -1,0 +1,37 @@
+*{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+}
+
+.slider {
+        overflow: hidden;
+        width: 100px;
+        height: 300px; /* Adjust this height to fit your images */
+}
+      
+.slider img {
+        width: 100%;
+        height: 100%;
+        opacity: 0; /* Hide all images initially */
+        transition: opacity 1s ease-in-out;
+}
+      
+      /* Show first image */
+.slider img:first-child {
+        opacity: 1;
+}
+      
+      /* Animation for automatic sliding */
+@keyframes slide {
+        0% { margin-left: 0; }
+        33.33% { margin-left: -100%; }
+        66.66% { margin-left: -200%; }
+        100% { margin-left: 0; }
+}
+      
+      /* Apply animation to the slider */
+.slider img {
+        animation: slide 2s infinite; /* Change the 6s to control the slide duration */
+}
+      

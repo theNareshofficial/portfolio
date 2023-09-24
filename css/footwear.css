@@ -1,0 +1,20 @@
+*{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        
+}
+
+.footwear{
+        background-color: #000;
+        color: white;
+        display: grid;
+        text-align: center;
+        padding: 20px;
+        letter-spacing: 1px;
+        font-size: x-large;
+}
+
+.footwear:hover{
+        color: orangered;
+}

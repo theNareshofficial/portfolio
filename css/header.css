@@ -1,0 +1,117 @@
+@import url('https://fonts.googleapis.com/css2?family=Borel&family=Bungee+Spice&family=Permanent+Marker&family=Poppins:wght@400;600&family=Roboto+Mono:ital,wght@0,500;1,400;1,600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Audiowide&family=Caveat+Brush&family=Caveat:wght@500;600;700&family=Handjet:wght@300;400;500;600&family=Pacifico&family=Press+Start+2P&display=swap');
+
+*{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+}
+
+.header{
+        background-color: #000;
+        display: flex;
+        justify-content: space-between;
+        padding: 25px;
+        color: #Ffff;
+        text-decoration: none;
+}
+
+.header_right a{
+        color: white;
+        text-decoration: none;
+        padding: 10px;
+        font-weight: bolder;
+        letter-spacing: 3px;
+        font-size: large;
+        font-family: 'Pacifico', cursive;
+}
+
+.header_left a{
+        font-family: 'Permanent Marker', cursive;
+        text-decoration: none;
+        color: orangered;
+        text-decoration: none;
+        padding: 5px;
+        font-size: 20px;
+        font-weight: bolder;
+        letter-spacing: 2px;
+}
+
+.header_right a:hover{
+        transition: 0.5ms;
+        border-bottom: orangered solid 3px;
+}
+
+.header_right .coffee{
+        background-color: orangered;
+        border-radius: 50px;
+        margin-top: 12px;
+        border: 2px solid white;
+        box-shadow: 0 0 5px orangered, 0 0 5px orangered, 0 0 5px orangered, 0 0 5px orangered;
+}
+
+.header_right .coffee:hover{
+        border-bottom: none;
+}
+
+.header_right img{
+        height: 20px;
+        border-radius: 10px;
+}
+
+.menu{
+        display: none;
+}
+
+@media (min-width: 420px) and (max-width: 767.98px) {
+
+        .menu{
+                display: block;
+                color: orangered;
+                padding: 10px;
+                cursor: pointer;
+        }
+
+        .menu #close{
+                display: none;
+        }
+
+        
+        .header_right a{
+
+                height: 50px;
+                display: none;
+                background: transparent;
+        }
+        
+        /*
+
+
+        .header_right{
+                margin-top: 10px;
+        }
+
+        .header_left a{
+                font-family: 'Permanent Marker', cursive;
+                text-decoration: none;
+                color: orangered;
+                padding: 1px;
+                font-size: 20px;
+                font-weight: bold;
+                letter-spacing: 1px;
+        }
+        .header_right .coffee{
+                background-color: orangered;
+                border-radius: 10px;
+                border: 2px solid white;
+                box-shadow: 0 0 5px orangered, 0 0 15px orangered, 0 0 15px orangered, 0 0 5px orangered;
+        }
+        
+        i{
+                margin: 0;
+                padding: 0;
+                box-sizing: border-box;
+        }
+
+        */
+}

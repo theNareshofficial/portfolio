@@ -1,0 +1,64 @@
+@import url('https://fonts.googleapis.com/css2?family=Audiowide&family=Handjet:wght@300;400;500;600&family=Press+Start+2P&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Audiowide&family=Caveat+Brush&family=Handjet:wght@300;400;500;600&family=Press+Start+2P&display=swap');
+
+
+*{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        
+}
+
+body{
+        background-color: #000;
+        color: white;
+}
+.container1,.container2{
+        display: flex;
+        justify-content: space-between;
+}
+
+.container1, .programming, .framework,
+.container2, .database, .iot, progress{
+        margin: 10px;
+        width: 95%;
+}
+
+h1{        
+        font-size: x-large;
+        font-family: 'Handjet', cursive;
+        font-family: 'Press Start 2P', cursive;     
+        color: green;
+}
+
+.container1, .container2, h1{
+        padding: 10px;
+}
+span{
+        color: red;
+}
+
+h3{
+        font-family: 'Audiowide', cursive;
+        letter-spacing: 5px;
+        margin: 0;
+        padding: 0;
+}
+
+h3::first-letter{
+        color: orangered;
+}
+
+.container3{
+        display: flex;
+        justify-content: space-between;
+        padding: 30px;
+}
+
+.container3 a img{
+        justify-content: space-between;
+        padding: 10px;
+        height: 50px;
+        background-color: red;
+        border-radius: 20px;
+}

@@ -11,7 +11,7 @@ const Project = () => {
             <input 
               type="text" 
               placeholder="Search projects..." 
-              className="w-full pl-4 pr-12 py-2 text-black rounded-full border-2 border-gray-300 focus:border-yellow-400 focus:ring-2 focus:ring-yellow-400 focus:outline-none"
+              className="w-full pl-4 pr-12 py-2 text-black rounded-full border-2 border-gray-300 focus4border-yellow-400 focus:ring-2 focus:ring-yellow-400 focus:outline-none"
             />
             <button className="absolute right-2 top-1/2 transform -translate-y-1/2 bg-yellow-400 hover:bg-yellow-500 text-black rounded-full px-3 py-1">
               🔍
@@ -19,11 +19,10 @@ const Project = () => {
           </div>
         </div>
 
-        {/* Projects Grid */}
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 p-5 gap-8">
           
           {/* Sample Project Card */}
-          <div className="project-card hover:shadow-xl hover:shadow-gray-700 bg-gray-700 p-5 rounded-lg border-dashed border-2 border-yellow-400">
+          <div className="project-card hover:shadow-xl hover:shadow-gray-700 bg-gray-700 p-5 rounded-lg border-dashed border-4 border-yellow-400">
             <div className="photo h-40 bg-gray-700 rounded-lg mb-3 flex items-center justify-center">
               <img src="https://github.com/theNareshofficial/IPScanMaster/blob/main/assets/image.png?raw=true" alt="No Image" className="w-full h-full object-cover rounded-lg hover:shadow-2xl hover:shadow-yellow-200 hover:translate-y-1 ease-in-out hover:duration-200" />
             </div>
@@ -39,7 +38,7 @@ const Project = () => {
               </button>
             </div>
           </div>
-          <div className="project-card hover:shadow-xl hover:shadow-gray-700 bg-gray-700 p-5 rounded-lg border-dashed border-2 border-yellow-400">
+          <div className="project-card hover:shadow-xl hover:shadow-gray-700 bg-gray-700 p-5 rounded-lg border-dashed border-4 border-yellow-400">
             <div className="photo h-40 bg-gray-700 rounded-lg mb-3 flex items-center justify-center">
               <img src="https://github.com/theNareshofficial/IPScanMaster/blob/main/assets/image.png?raw=true" alt="No Image" className="w-full h-full object-cover rounded-lg hover:shadow-2xl hover:shadow-yellow-200 hover:translate-y-1 ease-in-out hover:duration-200" />
             </div>
@@ -55,7 +54,7 @@ const Project = () => {
               </button>
             </div>
           </div>
-          <div className="project-card hover:shadow-xl hover:shadow-gray-700 bg-gray-700 p-5 rounded-lg border-dashed border-2 border-yellow-400">
+          <div className="project-card hover:shadow-xl hover:shadow-gray-700 bg-gray-700 p-5 rounded-lg border-dashed border-4 border-yellow-400">
             <div className="photo h-40 bg-gray-700 rounded-lg mb-3 flex items-center justify-center">
               <img src="https://github.com/theNareshofficial/IPScanMaster/blob/main/assets/image.png?raw=true" alt="No Image" className="w-full h-full object-cover rounded-lg hover:shadow-2xl hover:shadow-yellow-200 hover:translate-y-1 ease-in-out hover:duration-200" />
             </div>
@@ -71,7 +70,7 @@ const Project = () => {
               </button>
             </div>
           </div>
-          <div className="project-card hover:shadow-xl hover:shadow-gray-700 bg-gray-700 p-5 rounded-lg border-dashed border-2 border-yellow-400">
+          <div className="project-card hover:shadow-xl hover:shadow-gray-700 bg-gray-700 p-5 rounded-lg border-dashed border-4 border-yellow-400">
             <div className="photo h-40 bg-gray-700 rounded-lg mb-3 flex items-center justify-center">
               <img src="https://github.com/theNareshofficial/IPScanMaster/blob/main/assets/image.png?raw=true" alt="No Image" className="w-full h-full object-cover rounded-lg hover:shadow-2xl hover:shadow-yellow-200 hover:translate-y-1 ease-in-out hover:duration-200" />
             </div>
@@ -87,7 +86,7 @@ const Project = () => {
               </button>
             </div>
           </div>
-          <div className="project-card hover:shadow-xl hover:shadow-gray-700 bg-gray-700 p-5 rounded-lg border-dashed border-2 border-yellow-400">
+          <div className="project-card hover:shadow-xl hover:shadow-gray-700 bg-gray-700 p-5 rounded-lg border-dashed border-4 border-yellow-400">
             <div className="photo h-40 bg-gray-700 rounded-lg mb-3 flex items-center justify-center">
               <img src="https://github.com/theNareshofficial/IPScanMaster/blob/main/assets/image.png?raw=true" alt="No Image" className="w-full h-full object-cover rounded-lg hover:shadow-2xl hover:shadow-yellow-200 hover:translate-y-1 ease-in-out hover:duration-200" />
             </div>
@@ -103,7 +102,7 @@ const Project = () => {
               </button>
             </div>
           </div>
-          <div className="project-card hover:shadow-xl hover:shadow-gray-700 bg-gray-700 p-5 rounded-lg border-dashed border-2 border-yellow-400">
+          <div className="project-card hover:shadow-xl hover:shadow-gray-700 bg-gray-700 p-5 rounded-lg border-dashed border-4 border-yellow-400">
             <div className="photo h-40 bg-gray-700 rounded-lg mb-3 flex items-center justify-center">
               <img src="https://github.com/theNareshofficial/IPScanMaster/blob/main/assets/image.png?raw=true" alt="No Image" className="w-full h-full object-cover rounded-lg hover:shadow-2xl hover:shadow-yellow-200 hover:translate-y-1 ease-in-out hover:duration-200" />
             </div>
@@ -119,7 +118,7 @@ const Project = () => {
               </button>
             </div>
           </div>
-          <div className="project-card hover:shadow-xl hover:shadow-gray-700 bg-gray-700 p-5 rounded-lg border-dashed border-2 border-yellow-400">
+          <div className="project-card hover:shadow-xl hover:shadow-gray-700 bg-gray-700 p-5 rounded-lg border-dashed border-4 border-yellow-400">
             <div className="photo h-40 bg-gray-700 rounded-lg mb-3 flex items-center justify-center">
               <img src="https://github.com/theNareshofficial/IPScanMaster/blob/main/assets/image.png?raw=true" alt="No Image" className="w-full h-full object-cover rounded-lg hover:shadow-2xl hover:shadow-yellow-200 hover:translate-y-1 ease-in-out hover:duration-200" />
             </div>

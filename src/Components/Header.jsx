@@ -6,7 +6,7 @@ const Header = () => {
     { name: 'Home', path: '/' },
     { name: 'Project', path: '/project' },
     { name: 'About', path: '/about' },
-    { name: 'Coffee', path: '/coffee' }, // You can create a Coffee component later
+    { name: 'Coffee', path: '/coffee' },
   ];
 
   return (

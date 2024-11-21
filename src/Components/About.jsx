@@ -23,10 +23,10 @@ const About = () => {
   const tools = [
     { name: "METASPLOIT FRAMWORK", level: '70%'},
     { name: "NMAP", level: '85%'},
+    { name: "SOCIAL ENGINEERING TOOLKIT", level: '80%'},
     { name: "BURP SUITE", level: '70%'},
     { name: "JOHN THE RIPPER", level: '60%'},
     { name: "NETCAT", level: '60%'},
-    { name: "SOCIAL ENGINEERING TOOLKIT", level: '80%'},
   ]
 
   const iot = [
@@ -59,9 +59,9 @@ const About = () => {
             ))}
           </div>
 
-          {/* Right Side: Frameworks/Libraries */}
+          {/* Right Side: WebApplication Development */}
           <div>
-            <h2 className="text-2xl hover:underline font-semibold mb-2 text-center text-purple-400">WebApplication Development            </h2>
+            <h2 className="text-2xl hover:underline font-semibold mb-2 text-center text-purple-400">WebApplication Development</h2>
             {frameworks.map((skill, index) => (
               <div key={index} className="mb-6">
                 <div className="flex justify-between mb-1">
@@ -95,9 +95,9 @@ const About = () => {
               </div>
             ))}
           </div>
-          {/* Right Side: IOT */}
+          {/* Right Side: IoT & Electronics */}
           <div>
-            <h2 className="text-2xl hover:underline font-semibold mb-2 text-center text-purple-400">IoT & Electronics            </h2>
+            <h2 className="text-2xl hover:underline font-semibold mb-2 text-center text-purple-400">IoT & Electronics</h2>
             {iot.map((skill, index) => (
               <div key={index} className="mb-6">
                 <div className="flex justify-between mb-1">
@@ -136,10 +136,10 @@ const About = () => {
                 2024 - Present
                 </button>
                 <h1 className="text-2xl font-bold p-3 hover:text-purple-600 hover:underline">
-                Full Ethical Hacking Course
+                Full Ethical Hacking
                 </h1>
                 <p className="p-5 font-medium">
-                  Currently pursuing a comprehensive <strong className='text-blue-600 hover::underline hover:text-red-600'>Ethical Hacking course</strong>, exploring topics like penetration testing, network security, cryptography, and malware analysis. This training is enhancing my understanding of vulnerabilities, exploits, and effective defense mechanisms, helping me develop the skills to secure digital systems proactively.
+                  Currently pursuing a comprehensive <strong className='text-blue-600 hover::underline hover:text-red-600'>Ethical Hacking Course</strong>, exploring topics like <span className='hover:text-red-700 hover:font-bold font-bold'>penetration testing, network security, cryptography, mobile hacking and malware analysis.</span> This training is enhancing my understanding of vulnerabilities, exploits, and effective defense mechanisms, helping me develop the skills to secure digital systems proactively.
                 </p>
               </div>
               
@@ -191,13 +191,8 @@ const About = () => {
           </div>
         </div>
 
-
-
         </div>
-
-
       </div>
-
     </>
   );
 };

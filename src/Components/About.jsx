@@ -172,7 +172,7 @@ const About = () => {
 
         <div className="Experience m-3">
           <h1 className="text-4xl font-bold mb-4 text-center text-purple-400 hover:underline">Experience</h1>
-          <div className="flex gap-1">
+          <div className="flex">
             {/* Vertical Line */}
             <div className="border-l-4 border-purple-600"></div>
             

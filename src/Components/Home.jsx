@@ -76,7 +76,7 @@ const Home = () => {
           <img
             src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEi609luN-_Nyx9Ti8cv-M_WPXmrJIwjYManZyVS5tg_xE25O_-et5CM8A6hwzMrzEqHJiPbEqkToK7EOh1jywMDQtCpsuB4DrAzLyqfYbiVvzZj_E3ZNHsgEjJORyMvJ4t7mp26v62OTs5DIvlh6mWbYbWuuHAXwowRytPn6xS_VgMVEYY/s220/ai%20circle.png"
             alt="Naresh"
-            className="border-yellow-400 cursor-pointer hover:border-red-600"
+            className="cursor-pointer hover:shadow-2xl hover:shadow-purple-800 rounded-full"
           />
         </div>
       </div>

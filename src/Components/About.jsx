@@ -153,7 +153,7 @@ const About = () => {
                 <p className="p-5 font-medium">
                 As a student at <strong><a href="https://selfmade.ninja/" className='text-blue-600 hover: hover:text-red-600'>Selfmade Ninja Academy</a>,</strong> I am gaining comprehensive skills in computer operations, architecture, Linux, Docker, and web engineering. My studies focus on secure coding, binary buffer overflow vulnerabilities, network communication, and the use of sockets for network programming. I explore both Offensive and Defensive Cybersecurity techniques, learning to identify and mitigate software and network vulnerabilities. This diverse education is equipping me with the expertise needed for a successful career in cybersecurity and IT.
                 </p>
-                <button className='font-bold rounded-full bg-purple-500 text-white p-2 mx-60' onClick={() => window.open('./certificates/SNA_Certificate.jpeg')} > Certificate</button>
+                <button className='font-bold rounded-full bg-purple-500 text-white p-2 mx-60 hover:bg-red-600' onClick={() => window.open('./certificates/SNA_Certificate.jpeg')} > Certificate</button>
               </div>
               
               <div className="diploma">

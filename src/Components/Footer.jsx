@@ -13,7 +13,7 @@ const Footer = () => {
     { href: "https://www.instagram.com/the_naresh_offcial/", icon: <GrInstagram />, hoverClass: "hover:text-yellow-500", label: "Instagram" },
     { href: "https://x.com/the_Naresh_tech", icon: <BsTwitterX />, hoverClass: "hover:text-black", label: "Twitter" },
     { href: "https://www.threads.net/@the_naresh_offcial", icon: <SiThreads />, hoverClass: "hover:text-black", label: "Threads" },
-    { href: "https://medium.com/@theNareshofficial", icon: <BsMedium />, hoverClass: "hover:text-black", label: "Medium" },
+    { href: "https://medium.com/@nareshnareshyyy", icon: <BsMedium />, hoverClass: "hover:text-black", label: "Medium" },
   ];
 
   return (

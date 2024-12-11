@@ -17,7 +17,7 @@ const Header = () => {
         {/* Logo Section */}
         <div className="logo flex items-center">
           <img
-            className="w-15 h-10 cursor-pointer hover:shadow-lg hover:shadow-purple-800 rounded-full"
+            className="w-15 h-10 cursor-pointer shadow-lg shadow-purple-600 hover:shadow-lg hover:shadow-yellow-500 rounded-full"
             src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEi609luN-_Nyx9Ti8cv-M_WPXmrJIwjYManZyVS5tg_xE25O_-et5CM8A6hwzMrzEqHJiPbEqkToK7EOh1jywMDQtCpsuB4DrAzLyqfYbiVvzZj_E3ZNHsgEjJORyMvJ4t7mp26v62OTs5DIvlh6mWbYbWuuHAXwowRytPn6xS_VgMVEYY/s220/ai%20circle.png"
             alt="theNareshofficial Logo"
           />

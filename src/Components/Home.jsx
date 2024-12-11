@@ -39,7 +39,7 @@ const Home = () => {
             <h1 className="name font-bold font-sans text-4xl md:text-5xl text-white">
               Hi, I'm{' '}
               <span className="text-yellow-400 italic hover:text-yellow-400 hover:underline hover:decoration-wavy hover:uppercase">
-                Naresh
+                Nare$h
               </span>
             </h1>
           </div>
@@ -76,7 +76,7 @@ const Home = () => {
           <img
             src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEi609luN-_Nyx9Ti8cv-M_WPXmrJIwjYManZyVS5tg_xE25O_-et5CM8A6hwzMrzEqHJiPbEqkToK7EOh1jywMDQtCpsuB4DrAzLyqfYbiVvzZj_E3ZNHsgEjJORyMvJ4t7mp26v62OTs5DIvlh6mWbYbWuuHAXwowRytPn6xS_VgMVEYY/s220/ai%20circle.png"
             alt="Naresh"
-            className="cursor-pointer hover:shadow-2xl hover:shadow-purple-800 rounded-full"
+            className="cursor-pointer shadow-2xl shadow-purple-600 hover:shadow-2xl hover:shadow-yellow-500 rounded-full"
           />
         </div>
       </div>

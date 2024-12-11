@@ -127,7 +127,7 @@ const About = () => {
                   BTech IT
                 </h1>
                 <p className="p-5 font-medium">
-                  Currently pursuing a <strong className='hover:text-blue-600'>B.Tech in Information Technology </strong> at <strong><a href="https://www.annamalaiarengg.com/" className='text-blue-600 hover: hover:text-red-600'>Annamalaiyar Engineering College</a>,</strong> with a strong focus on programming languages, algorithms, web development, object-oriented programming, data science, and Linux. This education is shaping my technical foundation and preparing me for dynamic challenges in the IT field.
+                  Currently pursuing a <strong className='hover:text-blue-600'>B.Tech in Information Technology </strong> at <strong><a href="https://www.annamalaiarengg.com/" className='text-blue-600 hover: hover:text-red-600'>Annamalaiyar Engineering College</a>,</strong> with a strong focus on programming languages, algorithms, web development, object-oriented programming, data science, electronics, and Linux. This education is shaping my technical foundation and preparing me for dynamic challenges in the IT field.
                 </p>
               </div>
               

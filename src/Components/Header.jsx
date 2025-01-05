@@ -18,7 +18,7 @@ const Header = () => {
         <div className="logo flex items-center">
           <img
             className="w-15 h-10 cursor-pointer shadow-lg shadow-purple-600 hover:shadow-lg hover:shadow-yellow-500 rounded-full"
-            src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEi609luN-_Nyx9Ti8cv-M_WPXmrJIwjYManZyVS5tg_xE25O_-et5CM8A6hwzMrzEqHJiPbEqkToK7EOh1jywMDQtCpsuB4DrAzLyqfYbiVvzZj_E3ZNHsgEjJORyMvJ4t7mp26v62OTs5DIvlh6mWbYbWuuHAXwowRytPn6xS_VgMVEYY/s220/ai%20circle.png"
+            src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiY2U6VHuaSJ6q205WjLGkfnI-2ZnzsrueSNpSDu6Y-5ZCwW46SOemUWqjQvObZICved9SZvyhakf7-sdOwpa92rhsdfL-CZnxeceUcQyUosOLeNjOtS-UTZjuYoloRxFLZ-tQsJfM7apsafdQUtaD5j7CsRRr-QoTSkIFHvkwvczVI2jw/s220/Naresh-modified.png"
             alt="theNareshofficial Logo"
           />
           <span className="ml-2 text-xl hover:text-yellow-400">

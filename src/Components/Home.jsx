@@ -74,7 +74,7 @@ const Home = () => {
         {/* Photo Section */}
         <div className="photo-container md:w-1/3 flex justify-center">
           <img
-            src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEi609luN-_Nyx9Ti8cv-M_WPXmrJIwjYManZyVS5tg_xE25O_-et5CM8A6hwzMrzEqHJiPbEqkToK7EOh1jywMDQtCpsuB4DrAzLyqfYbiVvzZj_E3ZNHsgEjJORyMvJ4t7mp26v62OTs5DIvlh6mWbYbWuuHAXwowRytPn6xS_VgMVEYY/s220/ai%20circle.png"
+            src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiY2U6VHuaSJ6q205WjLGkfnI-2ZnzsrueSNpSDu6Y-5ZCwW46SOemUWqjQvObZICved9SZvyhakf7-sdOwpa92rhsdfL-CZnxeceUcQyUosOLeNjOtS-UTZjuYoloRxFLZ-tQsJfM7apsafdQUtaD5j7CsRRr-QoTSkIFHvkwvczVI2jw/s220/Naresh-modified.png"
             alt="Naresh"
             className="cursor-pointer shadow-2xl shadow-purple-600 hover:shadow-2xl hover:shadow-yellow-500 rounded-full"
           />

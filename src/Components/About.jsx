@@ -9,9 +9,11 @@ const About = () => {
     { name: 'JAVASCRIPT', level: '65%' },
     { name: 'PHP', level: '85%' },
     { name: 'BASH', level: '85%' },
+    { name: 'BATCH', level: '55%' },
   ];
 
   const frameworks = [
+    { name: 'FLASK', level: '75%' },
     { name: 'REACT', level: '70%' },
     { name: 'BOOTSTRAP 5', level: '85%' },
     { name: 'TAILWIND CSS', level: '85%' },

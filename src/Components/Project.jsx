@@ -44,6 +44,26 @@ const Project = () => {
           
           <div className="project-card hover:shadow-xl hover:shadow-gray-700 bg-gray-700 p-5 rounded-lg border-dashed border-4 border-yellow-400">
             <div className="photo h-40 bg-gray-700 rounded-lg mb-3 flex items-center justify-center">
+              <img src="https://github.com/theNareshofficial/IPScanAPI/blob/main/assets/dashboard.png?raw=true" alt="No Image" className="w-full h-full object-cover rounded-lg hover:shadow-2xl hover:shadow-yellow-200 hover:translate-y-1 ease-in-out hover:duration-200" />
+            </div>
+            <div className="title text-xl font-bold mb-2 text-center hover:text-yellow-400">IPScanAPI</div>
+            <div className="tags flex font-mono gap-1 font-bold mb-2">
+              <h1 className='bg-red-600 rounded-full px-2'>Flask</h1>
+              <h1 className='bg-blue-600 rounded-full px-2'>python</h1>
+            </div>
+            <div className="bio text-gray-300">IPScanAPI - A Flask-based API for retrieving detailed IP address information, including geolocation and network details. 🚀</div>
+            <div className="btn flex justify-center mt-4">
+              <button 
+                type="button"
+                onClick={() => window.open('https://github.com/theNareshofficial/IPScanAPI.git', '_blank')}
+                className="bg-gradient-to-r animate-bounce from-orange-400 to-yellow-500 hover:from-teal-500 hover:to-yellow-500 text-white font-bold py-2 px-4 rounded-lg">
+                View
+              </button>
+            </div>
+          </div>
+          
+          <div className="project-card hover:shadow-xl hover:shadow-gray-700 bg-gray-700 p-5 rounded-lg border-dashed border-4 border-yellow-400">
+            <div className="photo h-40 bg-gray-700 rounded-lg mb-3 flex items-center justify-center">
               <img src="https://camo.githubusercontent.com/64f5df8fe3f3bcc3a70a5675387f9d5e7787a76215f4162abda529ed3b0136ef/68747470733a2f2f692e696d6775722e636f6d2f724c454e6843702e6a7067" alt="No Image" className="w-full h-full object-cover rounded-lg hover:shadow-2xl hover:shadow-yellow-200 hover:translate-y-1 ease-in-out hover:duration-200" />
             </div>
             <div className="title text-xl font-bold mb-2 text-center hover:text-yellow-400">FinalRecon</div>

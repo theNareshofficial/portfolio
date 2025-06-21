@@ -1,13 +1,13 @@
-import React, { useState, useEffect } from 'react';
+import React, { useState, useEffect } from "react";
 
 const Home = () => {
   const skills = [
-    'Student',
-    'Programmer',
-    'Full-Stack Developer',
-    'Security-Tool Developer',
-    'Linux Administrator',
-    'Technical Associate',
+    "Student",
+    "Programmer",
+    "Full-Stack Developer",
+    "Security-Tool Developer",
+    "Linux Administrator",
+    "IT Technical Associate",
   ];
 
   const [currentSkillIndex, setCurrentSkillIndex] = useState(0);
@@ -21,14 +21,12 @@ const Home = () => {
     }, 2000); // Change skill every 2 seconds
 
     return () => clearInterval(interval); // Cleanup interval on component unmount
-  }, [ skills]);
+  }, [skills]);
 
   return (
     <>
       <div className="w-full h-screen bg-black flex flex-col md:flex-row items-center justify-center overflow-x-hidden">
-
         <div className="text-container space-y-5 md:w-1/2 px-5 md:px-10 text-center md:text-left">
-          
           <div className="hello">
             <p className="helloWorld animate-bounce antialiased text-yellow-400 font-bold md:text-lg font-mono">
               HE110-W0R1D
@@ -37,7 +35,7 @@ const Home = () => {
 
           <div className="name">
             <h1 className="name font-bold font-sans text-4xl md:text-5xl text-white">
-              Hi, I'm{' '}
+              Hi, I'm{" "}
               <span className="text-yellow-400 italic hover:text-yellow-400 hover:underline hover:decoration-wavy hover:uppercase">
                 Nare$h
               </span>
@@ -46,7 +44,7 @@ const Home = () => {
 
           <div className="domain">
             <h1 className="domain text-3xl md:text-4xl font-bold font-serif text-white">
-              a{' '}
+              a{" "}
               <span className="text-yellow-400 animate-pulse hover:text-red-600 hover:uppercase">
                 {skills[currentSkillIndex]}
               </span>
@@ -55,18 +53,20 @@ const Home = () => {
 
           <div className="description">
             <p className="text-center first-letter:font-bold hover:uppercase first-letter:text-yellow-400 font-sans text-white text-lg tracking-wide">
-              My programming journey began when I was{' '}
+              My programming journey began when I was{" "}
               <span className="text-yellow-400 font-bold text-4xl hover:text-red-700 hover:cursor-none">
                 17
-              </span>{' '}
-              years old, and since then I have explored various programming
-              languages, frameworks, and libraries. Google has been a constant
-              source of knowledge and inspiration, helping me stay updated on
-              the latest trends in programming and ethical hacking. Now I'm
-              ready to take on a new challenge: diving deep into the network
-              layer of real-world ethical hacking. I want to learn how to
-              analyze, manipulate, and secure network traffic, as well as how
-              to exploit vulnerabilities and perform penetration testing.
+              </span>{" "}
+              years old. Since then, I’ve explored a wide range of programming
+              languages, frameworks, and libraries—constantly learning and
+              building along the way. Alongside my interest in development, I’ve
+              been working as an IT Technical Support Specialist, where I
+              troubleshoot hardware, software, and network issues to keep
+              systems running smoothly. Over time, my curiosity extended into
+              cybersecurity and ethical hacking. Now, I’m diving into the
+              network layer to understand how to analyze, manipulate, and secure
+              traffic, discover vulnerabilities, and perform real-world
+              penetration testing.
             </p>
           </div>
         </div>

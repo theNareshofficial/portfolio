@@ -293,6 +293,17 @@ const About = () => {
                     learning new technologies, and helping users work more
                     efficiently.
                   </p>
+                  <h3 className="text-xl font-bold text-red-600 hover:text-purple-600 hover:underline px-3 mt-2">
+                    Projects Deployed
+                  </h3>
+                  <div className="border-l-2 border-dashed border-gray-600 ml-4 pl-4 mt-1">
+                    <div className="text-sm mb-1">
+                      <span className="text-blue-400 font-bold">ITC</span>{" "}
+                      <span className="text-gray-500 ml-2">
+                        (Jan 2025 - Present)
+                      </span>
+                    </div>
+                  </div>
                 </div>
 
                 <div className="pacer mb-8">
@@ -318,6 +329,33 @@ const About = () => {
                     enjoy helping people with their technical issues and making
                     their lives easier...
                   </p>
+                  <h3 className="text-xl font-bold text-red-600 hover:text-purple-600 hover:underline px-3 mt-2">
+                    Projects Deployed
+                  </h3>
+                  <div className="border-l-2 border-dashed border-gray-600 ml-4 pl-4 mt-1">
+                    <div className="text-sm mb-1">
+                      <span className="text-blue-400 font-bold">
+                        Natural Remedies (NRPL)
+                      </span>{" "}
+                      <span className="text-gray-500 ml-2">
+                        (Jan 2025 - May 2025)
+                      </span>
+                    </div>
+                    <div className="text-sm mb-1">
+                      <span className="text-blue-400 font-bold">Roechling</span>{" "}
+                      <span className="text-gray-500 ml-2">
+                        (Jan 2024 - Dec 2024)
+                      </span>
+                    </div>
+                    <div className="text-sm">
+                      <span className="text-blue-400 font-bold">
+                        Mitsubishi
+                      </span>{" "}
+                      <span className="text-gray-500 ml-2">
+                        (Dec 2023 - Dec 2023)
+                      </span>
+                    </div>
+                  </div>
                 </div>
               </div>
             </div>

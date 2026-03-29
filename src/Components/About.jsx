@@ -300,7 +300,7 @@ const About = () => {
                     <div className="text-sm mb-1">
                       <span className="text-blue-400 font-bold">ITC</span>{" "}
                       <span className="text-gray-500 ml-2">
-                        (Jan 2025 - Present)
+                        (Jun 2025 - Present)
                       </span>
                     </div>
                   </div>
